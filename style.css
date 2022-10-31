@@ -45,7 +45,7 @@ html {
   font-size: var(--fz-default);
   line-height: 1.24;
   font-family: var(--ff-default);
-	letter-spacing: -0.02em;
+	letter-spacing: -0.04em;
 	color: var(--color-eclipse);
 
   -webkit-font-smoothing: antialiased;
