@@ -1,45 +1,73 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>I'm Mariia Shumova</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="MARIIA SHUMOVA RESPONSIVE WEB DESIGN & WEB PERFORMANCE">
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body class="page">
-		<div class="page__intro">
-			<video class="page__video" autoplay muted loop playsinline preload="yes">
-				<source src="./bg-video/bg-video.mp4" type="video/mp4">
-				<source src="./bg-video/bg-video.webm" type="video/webm">
-			</video>
-			<div class="page__intro-content">
-				<h1 class="page__title-wrapper">
-					<span class="page__title"> Hi, I'm<br />Mariia Shumova</span>
-					<span class="page__subtitle">Responsive Web Design &amp;&nbsp;Web Performance</span>
-				</h1>
-			</div>
-		</div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-		<div class="page__content">
-			<div class="page__text">
-				<p>I&rsquo;m a&nbsp;novice specialist in&nbsp;Front-end Development. I&nbsp;carry out my&nbsp;work properly and with responsibility because&nbsp;I really like all things to&nbsp;be&nbsp;done well. I&nbsp;actively develop my&nbsp;professional hard and soft skills and enjoy making accessible websites with high quality of&nbsp;user experience across all platforms, with attention to&nbsp;every single detail.</p>
-				<p>Currently I&nbsp;am a&nbsp;Front-end Developer Intern&nbsp;at <a href="https://ligaa.agency/" target="_blank">Liga&nbsp;A</a> digital agency. I&nbsp;am a&nbsp;member of&nbsp;the developer team with high-quality Web development standards and well-established processes of&nbsp;work. I&nbsp;take part in&nbsp;commercial projects with responsibility for website components and tasks entrusted to&nbsp;me.</p>
-			</div>
-			<ul class="page__links">
-				<li>
-					<a href="https://www.linkedin.com/in/shumova-mariia" target="_blank">Connect on&nbsp;Linkedin</a>
-				</li>
-				<li>
-					<a href="https://github.com/shumova" target="_blank">My&nbsp;GitHub</a>
-				</li>
-				<li>
-					<a href="./Resume-Mariia-Shumova.pdf">Download my&nbsp;CV</a>
-				</li>
-				<li>
-					<a href="mailto:shumova.mariia@gmail.com" target="_blank">Write me&nbsp;an&nbsp;email</a>
-				</li>
-			</ul>
-		</div>
-	</body>
+    <meta name="description" content="Responsive web design &amp; web performance">
+    <meta property="og:title" content="Mariia Shumova">
+    <meta property="og:description" content="Responsive web design &amp; web performance">
+    <meta property="og:type" content="website">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest" crossorigin="use-credentials">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#383838">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Mariia Shumova</title>
+    <link rel="preload" href="fonts/yuji-syuku.woff2" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <span class="logo">
+            <img class="logo" src="img/logo.svg" alt="Home page." width="200" height="200">
+          </span>   
+        </div>       
+      </header>
+      <main class="main">
+        <section class="intro">
+          <div class="container">
+            <div class="intro__text">
+              <h1>Hey there, I'm Mariia Shumova.</h1>
+              <p>I&rsquo;m making the world better by&nbsp;building high-fidelity web interfaces, which are equally friendly for customers, developers and search engines. I&nbsp;have a&nbsp;passion for web standards and keep abreast of&nbsp;new developments in&nbsp;the industry, interested in&nbsp;how the latest things and smartest companies work.</p>
+              <p>Currently based in Spain.</p>
+            </div>
+            <div class="video">
+              <video class="video__media" width="1436" height="831" autoplay muted playsinline preload poster="img/my-video-poster.jpg">
+                <source src="video/my-video.mp4" type="video/mp4">
+                <source src="video/my-video.webm" type="video/webm">
+                <p class="video__notice">Your browser does not support embedded videos.</p>
+              </video>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <ul class="contacts" id="contacts">
+            <li class="contacts__item">
+              <a class="contacts__link link" href="https://www.linkedin.com/in/shumova-mariia" target="_blank">connect <br>on&nbsp;Linkedin</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link link" href="https://github.com/shumova" target="_blank">welcome <br>to&nbsp;my&nbsp;GitHubb</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link link" href="./Resume-Mariia-Shumova.pdf">download <br>my&nbsp;CV</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link link" href="mailto:shumova.mariia@gmail.com" target="_blank">write <br>me&nbsp;an&nbsp;email</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
