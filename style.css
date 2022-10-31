@@ -193,13 +193,22 @@ video {
   background-color: var(--color-mabel);
 }
 
-.video__media {
+.video__media,
+.video__poster {
 	position: absolute;
 	top: 0;
 
 	width: 100%;
 	height: 100%;
+}
 
+.video__media {
+	object-fit: cover;
+}
+
+.video__poster img {
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 }
 
