@@ -12,7 +12,7 @@
 :root {
 	--color-default-white: #ffffff;
   --color-eclipse: #383838;
-	--color-mabel: #c0e0e0;
+	--color-link-water: #ccd2d9;
 
 	--fz-default: clamp(14px, 1.5vw, 25px);
 	--ff-default: "Yuji Syuku", "Palatino", serif;
@@ -190,7 +190,7 @@ video {
 
   padding-top: 56.25%;
 
-  background-color: var(--color-mabel);
+  background-color: var(--color-link-water);
 }
 
 .video__media,
