@@ -206,6 +206,10 @@ video {
 	object-fit: cover;
 }
 
+.video__poster {
+	transition: opacity var(--trans-default);
+}
+
 .video__poster img {
 	width: 100%;
 	height: 100%;
